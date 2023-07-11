@@ -1,0 +1,22 @@
+#!/bin/bash
+
+read in;
+len=`echo ${#in}`
+if [ $len -le 20 ]
+then
+a=$(echo $in | sed 's/o//g')
+a=${#a}
+echo $a
+b=$(echo $in | sed 's/z//g')
+b=${#b}
+
+a=$(($a * 2))
+	if [ a = b ]
+	then
+	echo "Yes"
+	else
+	 echo "No"
+	fi 
+else
+echo "Too Much length" && exit 1;
+fi
