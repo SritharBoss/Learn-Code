@@ -1,0 +1,20 @@
+#Already Added
+
+Android/GitHubProjects/
+Android/Channel_Info/
+Angular/csc/
+Angular/From Git/
+English/
+Python/python-mini-projects
+
+.gradle/
+.idea/
+.settings/
+
+build/
+target/
+
+*.zip
+
+#Files
+local.properties
