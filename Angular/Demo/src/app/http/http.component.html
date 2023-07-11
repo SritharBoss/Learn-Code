@@ -1,0 +1,5 @@
+<p id="date"></p>
+<input type="text" #input (keyup)="myFun(input.value)" placeholder="Search for names..">
+<ul>
+    <li *ngFor="let u of users">{{u.email}}</li>
+</ul>

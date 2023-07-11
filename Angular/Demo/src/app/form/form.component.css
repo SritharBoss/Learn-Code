@@ -1,0 +1,10 @@
+
+.bg {
+    background-image: url("https://wallpaperaccess.com/full/2314983.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+  }

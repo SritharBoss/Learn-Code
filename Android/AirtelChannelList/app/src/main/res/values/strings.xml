@@ -1,0 +1,552 @@
+<resources>
+    <string name="app_name">Airtel Channel List</string>
+    <string name="tv_Intro">Airtel Channel List With Channel Number.. Created By SritharBoss</string>
+    <string name="tv_Intro1">Sun Direct Channel List With Channel Number</string>
+    <string name="et_search_hint">Enter Your Favorite Channel</string>
+
+    <string-array name="channel_list1">
+        <item>Not Yet Added.</item>
+    </string-array>
+    <string-array name="channel_list">
+        <item>Sun Tv --- 754 -- Tamil</item>
+        <item>Sun Tv (High Definition) --- 755 -- Tamil</item>
+        <item>Captain Tv --- 747 -- Tamil</item>
+        <item>Raj Digital Plus --- 748 -- Tamil</item>
+        <item>Mega Tv --- 750 -- Tamil</item>
+        <item>Zee Tamil --- 751 -- Tamil</item>
+        <item>Puthu Yugam --- 753 -- Tamil</item>
+        <item>Ktv --- 756 -- Tamil</item>
+        <item>Star Vijay --- 758 -- Tamil</item>
+        <item>Vijay (High Definition) --- 759 -- Tamil</item>
+        <item>Kalaignar Tv --- 760 -- Tamil</item>
+        <item>Jaya Tv --- 762 -- Tamil</item>
+        <item>Raj Tv --- 764 -- Tamil</item>
+        <item>Polimer Tv --- 766 -- Tamil</item>
+        <item>Sirippoli --- 767 -- Tamil</item>
+        <item>Makkal Tv --- 768 -- Tamil</item>
+        <item>Adithya Tv --- 769 -- Tamil</item>
+        <item>Vendhar Tv --- 770 -- Tamil</item>
+        <item>Vasanth Tv --- 771 -- Tamil</item>
+        <item>Vijay Super --- 772 -- Tamil</item>
+        <item>Naaptol Tamil --- 773 -- Tamil</item>
+        <item>Mk Tv --- 774 -- Tamil</item>
+        <item>Mk Six --- 775 -- Tamil</item>
+        <item>Tamilan Tv --- 776 -- Tamil</item>
+        <item>Vanavil Tv --- 777 -- Tamil</item>
+        <item>Colors Tamil --- 778 -- Tamil</item>
+        <item>J Movie --- 778 -- Tamil</item>
+        <item>News 7 Tamil --- 783 -- Tamil</item>
+        <item>Puthiya Thalaimurai --- 784 -- Tamil</item>
+        <item>Seithigal 24X7 --- 785 -- Tamil</item>
+        <item>Polimer News --- 786 -- Tamil</item>
+        <item>Thanthi Tv --- 787 -- Tamil</item>
+        <item>Sun News --- 789 -- Tamil</item>
+        <item>Jaya Plus --- 790 -- Tamil</item>
+        <item>Malai Murasu Tv --- 791 -- Tamil</item>
+        <item>Sathiyam Tv --- 792 -- Tamil</item>
+        <item>News18 Tamilnadu --- 793 -- Tamil</item>
+        <item>Win Tv --- 795 -- Tamil</item>
+        <item>Discovery Tamil --- 798 -- Tamil</item>
+        <item>Chutti Tv --- 801 -- Tamil</item>
+        <item>Star Sports Tamil --- 803 -- Tamil</item>
+        <item>Isaiaruvi --- 805 -- Tamil</item>
+        <item>Sun Life --- 806 -- Tamil</item>
+        <item>Sun Music --- 809 -- Tamil</item>
+        <item>Sun Music (High Definition) --- 810 -- Tamil</item>
+        <item>Jaya Max --- 811 -- Tamil</item>
+        <item>Mk Tunes --- 812 -- Tamil</item>
+        <item>Aaseervatham --- 814 -- Tamil</item>
+        <item>Angel Tv --- 815 -- Tamil</item>
+        <item>Madha Tv --- 816 -- Tamil</item>
+        <item>Nambikai Tv --- 817 -- Tamil</item>
+        <item>Dd Podhigai --- 820 -- Tamil</item>
+        <item>7S Music --- 821 -- Tamil</item>
+        <item>MAHA CARTOON TV --- 472 --- KIDS</item>
+        <item>SONY YAY! --- 471 --- KIDS</item>
+        <item>Disney Junior --- 463 --- KIDS</item>
+        <item>Baby TV --- 464 --- KIDS</item>
+        <item>CARTOON NETWORK --- 449 --- KIDS</item>
+        <item>CHUTTI TV --- 801 --- KIDS</item>
+        <item>Discovery Kids --- 461 --- KIDS</item>
+        <item>DISNEY --- 458 --- KIDS</item>
+        <item>HUNGAMA --- 453 --- KIDS</item>
+        <item>NICK --- 455 --- KIDS</item>
+        <item>Pogo --- 451 --- KIDS</item>
+        <item>Sonic --- 460 --- KIDS</item>
+        <item>Disney XD --- 457 --- KIDS</item>
+        <item>Nick Junior --- 447 --- KIDS</item>
+        <item>Zee Q --- 466 --- KIDS</item>
+        <item>Toonami --- 467 --- KIDS</item>
+        <item>Living Foodz HD --- 417</item>
+        <item>Maa Movies HD --- 898 -- HD</item>
+        <item>HBO HD --- 246 -- HD</item>
+        <item>Time Now HD --- 368 -- HD</item>
+        <item>ETV HD --- 880 -- HD</item>
+        <item>Comedy Central HD --- 176 -- HD</item>
+        <item>Star Gold Select HD --- 208 -- HD</item>
+        <item>SONY SAB HD --- 127 -- HD</item>
+        <item>ZEE MARATHI HD --- 517 -- HD</item>
+        <item>ZEE TALKIES HD --- 528 -- HD</item>
+        <item>ZEE BANGLA HD --- 704 -- HD</item>
+        <item>STAR SUVARNA HD --- 960 -- HD</item>
+        <item>TLC HD WORLD --- 409 -- HD</item>
+        <item>Animal Planet HD WORLD --- 427 -- HD</item>
+        <item>Sony BBC Earth HD --- 439 -- HD</item>
+        <item>Nat Geo HD --- 339 -- HD</item>
+        <item>STAR MAA HD --- 882 -- HD</item>
+        <item>Le Plex HD --- 264 -- HD</item>
+        <item>MNX HD --- 262 -- HD</item>
+        <item>Star Sports Select HD 1 --- 300 -- HD</item>
+        <item>Star Sports Select HD 2 --- 301 -- HD</item>
+        <item>Star Vijay HD --- 894 -- HD</item>
+        <item>Movies now HD --- 201 -- HD</item>
+        <item>Romedy Now HD --- 254 -- HD</item>
+        <item>Sony ESPN HD --- 297 -- HD</item>
+        <item>Star Jalsha HD --- 708 -- HD</item>
+        <item>Jalsha Movies HD --- 773 -- HD</item>
+        <item>Star Pravah HD --- 521 -- HD</item>
+        <item>Colors Bangla HD --- 706 -- HD</item>
+        <item>Colors Marathi HD --- 519 -- HD</item>
+        <item>Colors Kannada HD --- 956 -- HD</item>
+        <item>Gemini TV HD --- 878 -- HD</item>
+        <item>Star Bharat HD --- 114 -- HD</item>
+        <item>Sony PIX HD --- 248 -- HD</item>
+        <item>&amp; Pictures HD --- 212 -- HD</item>
+        <item>Zee café HD --- 169 -- HD</item>
+        <item>Nick HD --- 456 -- HD</item>
+        <item>FX HD --- 172 -- HD</item>
+        <item>Colors Infinity HD --- 174 -- HD</item>
+        <item>Sony MAX HD --- 202 -- HD</item>
+        <item>Fox Life HD --- 425 -- HD</item>
+        <item>Mazhavil Manorama HD --- 831 -- HD</item>
+        <item>AXN HD --- 162 -- HD</item>
+        <item>Asianet HD --- 827 -- HD</item>
+        <item>Star World Premiere HD --- 164 -- HD</item>
+        <item>COLORS HD --- 117 -- HD</item>
+        <item>STAR PLUS HD --- 106 -- HD</item>
+        <item>STAR WORLD HD --- 166 -- HD</item>
+        <item>Zee TV HD --- 109 -- HD</item>
+        <item>Sony HD --- 112 -- HD</item>
+        <item>DISCOVERY World HD --- 421 -- HD</item>
+        <item>NGC – HD --- 423 -- HD</item>
+        <item>Zee Cinema HD --- 204 -- HD</item>
+        <item>Movies Now+ --- 252 -- HD</item>
+        <item>STAR GOLD HD --- 206 -- HD</item>
+        <item>STAR MOVIES HD --- 244 -- HD</item>
+        <item>Zee Studio HD --- 256 -- HD</item>
+        <item>SONY ROX HD --- 500 -- HD</item>
+        <item>Sony Six HD --- 292 -- HD</item>
+        <item>Star Sports 1 HD --- 278 -- HD</item>
+        <item>Star Sports 2 HD --- 280 -- HD</item>
+        <item>SONY TEN HD 1 --- 286 -- HD</item>
+        <item>SONY TEN HD 2 --- 288 -- HD</item>
+        <item>SONY TEN HD 3 --- 290 -- HD</item>
+        <item>History TV 18 HD --- 433 -- HD</item>
+        <item>Sun Tv HD --- 755 -- HD</item>
+        <item>Star Sports 1 Hindi HD --- 282 -- HD</item>
+        <item>Sun Music HD --- 810 -- HD</item>
+        <item>&amp;tv HD --- 120 -- HD</item>
+        <item>Star Movies Select HD --- 251 -- HD</item>
+        <item>Star Sports Select 1 HD --- 300 -- HD</item>
+        <item>Star Sports Select 2 HD --- 301 -- HD</item>
+        <item>&amp; TV --- 119 -- Entertainment</item>
+        <item>Big Magic --- 124 -- Entertainment</item>
+        <item>Bindass --- 134 -- Entertainment</item>
+        <item>Colors --- 116 -- Entertainment</item>
+        <item>DD Kisan --- 152 -- Entertainment</item>
+        <item>Epic --- 138 -- Entertainment</item>
+        <item>Discovery Jeet --- 135 -- Entertainment</item>
+        <item>Rishtey --- 129 -- Entertainment</item>
+        <item>Sony --- 111 -- Entertainment</item>
+        <item>Sony Pal --- 132 -- Entertainment</item>
+        <item>Sony Sab --- 126 -- Entertainment</item>
+        <item>Star Bharat --- 114 -- Entertainment</item>
+        <item>Star Plus --- 105 -- Entertainment</item>
+        <item>Star Utsav --- 131 -- Entertainment</item>
+        <item>Zee Anmol --- 140 -- Entertainment</item>
+        <item>Zee TV --- 108 -- Entertainment</item>
+        <item>MUBU TV --- 145 -- Entertainment</item>
+        <item>EZMall --- 141 -- Entertainment</item>
+        <item>&amp; Pictures --- 211 -- Entertainment</item>
+        <item>B4U Movies --- 226 -- Entertainment</item>
+        <item>Cinema TV --- 220 -- Entertainment</item>
+        <item>Enterr 10 --- 143 -- Entertainment</item>
+        <item>Movies OK --- 207 -- Entertainment</item>
+        <item>Rishtey Ciniplex --- 219 -- Entertainment</item>
+        <item>Sony MAX --- 201 -- Entertainment</item>
+        <item>Sony MAX 2 --- 209 -- Entertainment</item>
+        <item>Sony Wah --- 224 -- Entertainment</item>
+        <item>Star Gold --- 205 -- Entertainment</item>
+        <item>Star Utsav Movies --- 225 -- Entertainment</item>
+        <item>UTV Action --- 217 -- Entertainment</item>
+        <item>UTV Movies --- 213 -- Entertainment</item>
+        <item>WOW Cinema --- 221 -- Entertainment</item>
+        <item>Zee Action --- 216 -- Entertainment</item>
+        <item>Zee Cinema --- 203 -- Entertainment</item>
+        <item>Zee Bollywood --- 215 -- Entertainment</item>
+        <item>NT 1 --- 218 -- Entertainment</item>
+        <item>Surya Cinema --- 230 -- Entertainment</item>
+        <item>Star Sports Select 2 --- 284 -- Sports</item>
+        <item>TRUE SPORTS --- 302 -- Sports</item>
+        <item>Star Sports 1 Tamil --- 803 -- Sports</item>
+        <item>Star Sports 1 --- 277 -- Sports</item>
+        <item>Star Sports 2 --- 279 -- Sports</item>
+        <item>Star Sports 1 Hindi --- 281 -- Sports</item>
+        <item>Star Sports Select 1 --- 283 -- Sports</item>
+        <item>STAR SPORTS FIRST --- 303 -- Sports</item>
+        <item>Neo Prime --- 295 -- Sports</item>
+        <item>NEO SPORTS --- 293 -- Sports</item>
+        <item>SONY TEN 2 --- 287 -- Sports</item>
+        <item>SONY TEN 3 --- 289 -- Sports</item>
+        <item>SONY TEN 1 --- 285 -- Sports</item>
+        <item>SONY SIX --- 291 -- Sports</item>
+        <item>Sony ESPN --- 296 -- Sports</item>
+        <item>ZEE NEWS --- 311 -- NEWS</item>
+        <item>AAJ TAK --- 313 -- NEWS</item>
+        <item>News X --- 374 -- NEWS</item>
+        <item>BBC WORLD NEWS --- 391 -- NEWS</item>
+        <item>CNN --- 393 -- NEWS</item>
+        <item>CNN News 18 --- 371 -- NEWS</item>
+        <item>India Today --- 372 -- NEWS</item>
+        <item>News18 India --- 319 -- NEWS</item>
+        <item>News18 LOKMAT --- 537 -- NEWS</item>
+        <item>INDIA TV --- 315 -- NEWS</item>
+        <item>NDTV 24×7 --- 369 -- NEWS</item>
+        <item>NDTV India --- 317 -- NEWS</item>
+        <item>News 24 --- 323 -- NEWS</item>
+        <item>ABP News --- 328 -- NEWS</item>
+        <item>TIMES NOW --- 367 -- NEWS</item>
+        <item>India News --- 322 -- NEWS</item>
+        <item>News X --- 374 -- NEWS</item>
+        <item>Al Jazeera --- 395 -- NEWS</item>
+        <item>BLOOMBERG TV --- 383 -- NEWS</item>
+        <item>WION --- 378 -- NEWS</item>
+        <item>CNBC AWAAZ --- 329 -- NEWS</item>
+        <item>CNBC TV18 --- 379 -- NEWS</item>
+        <item>NDTV PROFIT --- 382 -- NEWS</item>
+        <item>BTVi --- 384 -- NEWS</item>
+        <item>ZEE BUSINESS --- 331 -- NEWS</item>
+        <item>ET NOW --- 381 -- NEWS</item>
+        <item>GOODNEWS TV --- 695 -- DEVOTIONAL</item>
+        <item>SHUBHSANDESH TV --- 694 -- DEVOTIONAL</item>
+        <item>SARTHI --- 693 -- DEVOTIONAL</item>
+        <item>ISHWAR TV --- 692 -- DEVOTIONAL</item>
+        <item>Gyana Yogi Telugu --- 945 -- DEVOTIONAL</item>
+        <item>POWERVISION --- 873 -- DEVOTIONAL</item>
+        <item>Nambikkai TV --- 817 -- DEVOTIONAL</item>
+        <item>Astha --- 681 -- DEVOTIONAL</item>
+        <item>ARADANA TV --- 944 -- DEVOTIONAL</item>
+        <item>Divyavani TV --- 943 -- DEVOTIONAL</item>
+        <item>Shubh TV --- 691 -- DEVOTIONAL</item>
+        <item>SARV DHARAM SANGAM --- 690 -- DEVOTIONAL</item>
+        <item>MADHA TV --- 816 -- DEVOTIONAL</item>
+        <item>ZINGAAT --- 546 -- Music</item>
+        <item>ZING --- 501 -- Music</item>
+        <item>MTV Beats --- 482 -- Music</item>
+        <item>9XO --- 509 -- Music</item>
+        <item>9X M --- 484 -- Music</item>
+        <item>B4U MUSIC --- 486 -- Music</item>
+        <item>E-24 --- 490 -- Music</item>
+        <item>Mastii --- 488 -- Music</item>
+        <item>MH1 --- 566 -- Music</item>
+        <item>MTV --- 480 -- Music</item>
+        <item>Sony Mix --- 491 -- Music</item>
+        <item>VH1 --- 507 -- Music</item>
+        <item>ZOOM --- 496 -- Music</item>
+        <item>9X Jalwa --- 492 -- Music</item>
+        <item>OK India --- 440 -- Infotainment</item>
+        <item>GREEN TV --- 441 -- Infotainment</item>
+        <item>Sony BBC Earth --- 438 -- Infotainment</item>
+        <item>Sony BBC Earth HD --- 439 -- Infotainment</item>
+        <item>Animal Planet HD WORLD --- 427 -- Infotainment</item>
+        <item>FYI TV 18 --- 428 -- Infotainment</item>
+        <item>Nat Geo Wild --- 434 -- Infotainment</item>
+        <item>ANIMAL PLANET --- 426 -- Infotainment</item>
+        <item>DISCOVERY --- 420 -- Infotainment</item>
+        <item>DISCOVERY Science --- 430 -- Infotainment</item>
+        <item>Discovery Tamil --- 798 -- Infotainment</item>
+        <item>DISCOVERY Turbo --- 431 -- Infotainment</item>
+        <item>Fox Life --- 424 -- Infotainment</item>
+        <item>HISTORY TV --- 432 -- Infotainment</item>
+        <item>NGC --- 422 -- Infotainment</item>
+        <item>TOPPER --- 469 -- Infotainment</item>
+        <item>NAT GEO people --- 436 -- Infotainment</item>
+        <item>Shop CJ --- 123 -- LifeStyle</item>
+        <item>TLC HD WORLD --- 409 -- LifeStyle</item>
+        <item>NAAPTOL Tamil --- 773 -- LifeStyle</item>
+        <item>NAAPTOL Telugu --- 890 -- LifeStyle</item>
+        <item>Naaptol Bangla --- 713 -- LifeStyle</item>
+        <item>Fashion TV --- 416 -- LifeStyle</item>
+        <item>TRAVELXP --- 414 -- LifeStyle</item>
+        <item>Living Foodz --- 417 -- LifeStyle</item>
+        <item>TLC --- 408 -- LifeStyle</item>
+        <item>FOOD FOOD --- 412 -- LifeStyle</item>
+        <item>Homeshop 18 --- 122 -- LifeStyle</item>
+        <item>NDTV GOOD TIMES --- 410 -- LifeStyle</item>
+        <item>B4U Movies --- 226 -- Movies</item>
+        <item>MANORANJAN TV --- 662 -- Movies</item>
+        <item>MANORANJAN MOVIES --- 560 -- Movies</item>
+        <item>MAHA MOVIE --- 228 -- Movies</item>
+        <item>Star Utsav Movies --- 225 -- Movies</item>
+        <item>Sony Wah --- 224 -- Movies</item>
+        <item>Sony Max 2 --- 209 -- Movies</item>
+        <item>ETV Cinema --- 899 -- Movies</item>
+        <item>MULTIPLEX --- 223 -- Movies</item>
+        <item>Romedy Now --- 253 -- Movies</item>
+        <item>Rishtey Cineplex --- 219 -- Movies</item>
+        <item>Oscar Movies --- 660 -- Movies</item>
+        <item>UTV Action --- 217 -- Movies</item>
+        <item>WOW Cinema --- 221 -- Movies</item>
+        <item>&amp;pictures --- 211 -- Movies</item>
+        <item>Zee Action --- 216 -- Movies</item>
+        <item>Sony MAX --- 201 -- Movies</item>
+        <item>SONY PIX --- 247 -- Movies</item>
+        <item>STAR GOLD --- 205 -- Movies</item>
+        <item>STAR MOVIES --- 243 -- Movies</item>
+        <item>UTV MOVIES --- 213 -- Movies</item>
+        <item>WB --- 257 -- Movies</item>
+        <item>ZEE CINEMA --- 203 -- Movies</item>
+        <item>ZEE Classic --- 215 -- Movies</item>
+        <item>ZEE STUDIO --- 255 -- Movies -- Airtel Pay</item>
+        <item>Airtel Movies 2 --- 159 -- Airtel Pay</item>
+        <item>Movie Mania --- 191 -- Airtel Pay</item>
+        <item>Miniplex --- 192 -- Airtel Pay</item>
+        <item>Miniplex (High Definition) --- 193 -- Airtel Pay</item>
+        <item>Sadabahar Hitz --- 194 -- Airtel Pay</item>
+        <item>Punjabi Tadka --- 555 -- Airtel Pay</item>
+        <item>Realm Chel --- 577 -- Airtel Pay</item>
+        <item>Sony Max Superhitz --- 198 -- Airtel Pay</item>
+        <item>Thanga Thirai --- 745 -- Airtel Pay</item>
+        <item>Zee Marathi --- 516 -- Regional</item>
+        <item>Zee Marathi (HD) --- 517 -- Regional</item>
+        <item>Colors Marathi --- 518 -- Regional</item>
+        <item>Colors Marathi (HD) --- 519 -- Regional</item>
+        <item>STAR Pravah --- 520 -- Regional</item>
+        <item>STAR Pravah (HD) --- 521 -- Regional</item>
+        <item>Zee Yuva --- 522 -- Regional</item>
+        <item>Naaptol Marathi --- 524 -- Regional</item>
+        <item>Zee Talkies --- 527 -- Regional</item>
+        <item>Zee Talkies (HD) --- 528 -- Regional</item>
+        <item>Maiboli --- 529 -- Regional</item>
+        <item>Fakt Marathi --- 530 -- Regional</item>
+        <item>ABP Majha --- 534 -- Regional</item>
+        <item>Saam TV --- 535 -- Regional</item>
+        <item>IBN Lokmat --- 537 -- Regional</item>
+        <item>Zee 24 Taas --- 538 -- Regional</item>
+        <item>TV9 Marathi --- 539 -- Regional</item>
+        <item>9X Jhakaas --- 544 -- Regional</item>
+        <item>Sangeeth Marathi --- 545 -- Regional</item>
+        <item>DD Sahyadri --- 548 -- Regional</item>
+        <item>Mh One --- 566 -- Punjabi</item>
+        <item>Zee Punjab Haryana Himachal --- 562 -- Punjabi</item>
+        <item>Ptc Punjabi --- 555 -- Punjabi</item>
+        <item>Ptc News --- 563 -- Punjabi</item>
+        <item>Chardikla Time --- 557 -- Punjabi</item>
+        <item>Ptc Chakde --- 568 -- Punjabi</item>
+        <item>9X Tashan --- 569 -- Punjabi</item>
+        <item>Dd Punjabi --- 572 -- Punjabi</item>
+        <item>Colors Gujarati --- 578 -- Gujarathi</item>
+        <item>Etv News Gujarati --- 582 -- Gujarathi</item>
+        <item>Tv9 Gujarati --- 583 -- Gujarathi</item>
+        <item>Cnbc Bajar --- 584 -- Gujarathi</item>
+        <item>Vtv News --- 585 -- Gujarathi</item>
+        <item>Sandesh News --- 586 -- Gujarathi</item>
+        <item>Dd Girnar --- 589 -- Gujarathi</item>
+        <item>Colors Oriya --- 593 -- Oria</item>
+        <item>Tarang Tv --- 594 -- Oria</item>
+        <item>Prarthna Tv --- 595 -- Oria</item>
+        <item>Sarthak Tv --- 596 -- Oria</item>
+        <item>Alankar Tv --- 601 -- Oria</item>
+        <item>Etv News Odia --- 603 -- Oria</item>
+        <item>Kanak News --- 604 -- Oria</item>
+        <item>Kalinga Tv --- 605 -- Oria</item>
+        <item>Mbc Tv --- 606 -- Oria</item>
+        <item>Otv --- 607 -- Oria</item>
+        <item>Zee Kalinga --- 608 -- Oria</item>
+        <item>Prameya News 7 --- 610 -- Oria</item>
+        <item>Tarang Music --- 614 -- Oria</item>
+        <item>Dd Odia --- 617 -- Oria</item>
+        <item>I Badat Active --- 621 -- Urudu</item>
+        <item>Zee Salaam --- 622 -- Urudu</item>
+        <item>Etv Urdu --- 625 -- Urudu</item>
+        <item>Dd Urdu --- 626 -- Urudu</item>
+        <item>Dd Kashir --- 627 -- Urudu</item>
+        <item>Munsif Tv --- 628 -- Urudu</item>
+        <item>Mecca Medina 24*7 --- 786 -- Urudu</item>
+        <item>Rengoni --- 632 -- ASSAMEE</item>
+        <item>Rang --- 633 -- ASSAMEE</item>
+        <item>Jonack Tv --- 634 -- ASSAMEE</item>
+        <item>Ramdhenu --- 635 -- ASSAMEE</item>
+        <item>Prag News --- 638 -- ASSAMEE</item>
+        <item>Protidin Time --- 639 -- ASSAMEE</item>
+        <item>Assam Talks --- 640 -- ASSAMEE</item>
+        <item>News Live --- 641 -- ASSAMEE</item>
+        <item>Nepal 1 --- 642 -- ASSAMEE</item>
+        <item>Dy365 --- 643 -- ASSAMEE</item>
+        <item>News18 Assam/North East --- 644 -- ASSAMEE</item>
+        <item>Dd North East --- 647 -- ASSAMEE</item>
+        <item>Hamara Sanima --- 651 -- BHOJPURI</item>
+        <item>Dangal --- 652 -- BHOJPURI</item>
+        <item>Big Ganga --- 653 -- BHOJPURI</item>
+        <item>Mahuaa TV --- 654 -- BHOJPURI</item>
+        <item>Dabangg --- 655 -- BHOJPURI</item>
+        <item>Anjan TV --- 658 -- BHOJPURI</item>
+        <item>Zee Purvayiya --- 659 -- BHOJPURI</item>
+        <item>Oscar Movies --- 660 -- BHOJPURI</item>
+        <item>Bhojpuri cinema --- 661 -- BHOJPURI</item>
+        <item>ETV Bihar/jharkhand --- 664 -- BHOJPURI</item>
+        <item>Sangeeth bhojpuri --- 667 -- BHOJPURI</item>
+        <item>DD Bihar --- 669 -- BHOJPURI</item>
+        <item>Zee Bangla --- 703 -- Bengali</item>
+        <item>Zee Bangla (HD) --- 704 -- Bengali</item>
+        <item>Colors Bangla --- 705 -- Bengali</item>
+        <item>Colors Bangla (HD) --- 706 -- Bengali</item>
+        <item>Star Jalsha --- 707 -- Bengali</item>
+        <item>Star Jalsha (HD) --- 708 -- Bengali</item>
+        <item>Ruposhi Bangla Tv --- 709 -- Bengali</item>
+        <item>Sony Aath --- 711 -- Bengali</item>
+        <item>Akash Aath --- 712 -- Bengali</item>
+        <item>Naaptol Bangla --- 713 -- Bengali</item>
+        <item>Ctvn Akd Plus --- 714 -- Bengali</item>
+        <item>Zee Bangla Cinema --- 717 -- Bengali</item>
+        <item>Jalsha Movies --- 719 -- Bengali</item>
+        <item>Jalsha Movies (HD) --- 720 -- Bengali</item>
+        <item>24Ghanta --- 723 -- Bengali</item>
+        <item>Abp Ananda --- 724 -- Bengali</item>
+        <item>Etv News Bangla --- 725 -- Bengali</item>
+        <item>Kolkata Tv --- 726 -- Bengali</item>
+        <item>News Time --- 727 -- Bengali</item>
+        <item>Cn News --- 728 -- Bengali</item>
+        <item>Music Fatafati --- 734 -- Bengali</item>
+        <item>Dhoom Music --- 735 -- Bengali</item>
+        <item>Sangeet Bangla --- 736 -- Bengali</item>
+        <item>Dd Bangla --- 739 -- Bengali</item>
+        <item>Asianet --- 826 -- MALAYALAM</item>
+        <item>Asianet (High Definition) --- 827 -- MALAYALAM</item>
+        <item>Surya Tv --- 828 -- MALAYALAM</item>
+        <item>Mazhavil Manorama --- 830 -- MALAYALAM</item>
+        <item>Mazhavil Manorama (High Definition) --- 831 -- MALAYALAM</item>
+        <item>Flowers Tv --- 832 -- MALAYALAM</item>
+        <item>Kairali Tv --- 834 -- MALAYALAM</item>
+        <item>Jai Hind Tv --- 849 -- MALAYALAM</item>
+        <item>Asianet Movies --- 843 -- MALAYALAM</item>
+        <item>Naptol Malayalam --- 842 -- MALAYALAM</item>
+        <item>Asianet Plus --- 835 -- MALAYALAM</item>
+        <item>Amrita --- 836 -- MALAYALAM</item>
+        <item>Surya Movies --- 845 -- MALAYALAM</item>
+        <item>Dd Malayalam --- 871 -- MALAYALAM</item>
+        <item>Harvest Tv --- 872 -- MALAYALAM</item>
+        <item>Powervision India --- 873 -- MALAYALAM</item>
+        <item>Surya Music --- 863 -- MALAYALAM</item>
+        <item>Kairali We --- 837 -- MALAYALAM</item>
+        <item>Kochu Tv --- 861 -- MALAYALAM</item>
+        <item>Media One --- 850 -- MALAYALAM</item>
+        <item>Manorama News --- 851 -- MALAYALAM</item>
+        <item>Asianet News --- 852 -- MALAYALAM</item>
+        <item>News18 Kerala --- 855 -- MALAYALAM</item>
+        <item>Kappa Tv --- 864 -- MALAYALAM</item>
+        <item>Mathrubhumi News --- 853 -- MALAYALAM</item>
+        <item>Shalom Tv --- 869 -- MALAYALAM</item>
+        <item>Safari Tv --- 868 -- MALAYALAM</item>
+        <item>Goodness Tv --- 870 -- MALAYALAM</item>
+        <item>People Tv --- 854 -- MALAYALAM</item>
+        <item>Janam Tv --- 838 -- MALAYALAM</item>
+        <item>Kayumudi Tv --- 839 -- MALAYALAM</item>
+        <item>Naaptol Malayalam --- 842 -- MALAYALAM</item>
+        <item>Asianet Movies --- 843 -- MALAYALAM</item>
+        <item>Surya Movies --- 845 -- MALAYALAM</item>
+        <item>Jai Hind Tv --- 849 -- MALAYALAM</item>
+        <item>Media One --- 850 -- MALAYALAM</item>
+        <item>Manorama S --- 851 -- MALAYALAM</item>
+        <item>Asianet S --- 852 -- MALAYALAM</item>
+        <item>Mathrubhumi S --- 853 -- MALAYALAM</item>
+        <item>People Tv --- 854 -- MALAYALAM</item>
+        <item>S 18 Kerala --- 855 -- MALAYALAM</item>
+        <item>Raj S Malayalam --- 856 -- MALAYALAM</item>
+        <item>Kochu Tv --- 861 -- MALAYALAM</item>
+        <item>Surya Music --- 863 -- MALAYALAM</item>
+        <item>Kappa Tv --- 864 -- MALAYALAM</item>
+        <item>Raj Musix Malyalam --- 865 -- MALAYALAM</item>
+        <item>Safari Tv --- 868 -- MALAYALAM</item>
+        <item>Shalom Tv --- 869 -- MALAYALAM</item>
+        <item>Goodness Tv --- 870 -- MALAYALAM</item>
+        <item>Dd Malayalam --- 871 -- MALAYALAM</item>
+        <item>Harvest Tv --- 872 -- MALAYALAM</item>
+        <item>Powervision --- 873 -- MALAYALAM</item>
+        <item>Gemini Tv --- 877 -- TELUGU</item>
+        <item>Gemini Tv (High Definition) --- 878 -- TELUGU</item>
+        <item>Eenadu Tv --- 879 -- TELUGU</item>
+        <item>Etv (High Definition) --- 880 -- TELUGU</item>
+        <item>Star Maa Tv --- 881 -- TELUGU</item>
+        <item>Star Maa (High Definition) --- 882 -- TELUGU</item>
+        <item>Zee Telugu --- 882 -- TELUGU</item>
+        <item>Gemini Comedy --- 885 -- TELUGU</item>
+        <item>Maa Gold --- 887 -- TELUGU</item>
+        <item>Etv Plus --- 889 -- TELUGU</item>
+        <item>Cvr Health --- 892 -- TELUGU</item>
+        <item>Gemini Movies --- 895 -- TELUGU</item>
+        <item>Etv Cinema --- 899 -- TELUGU</item>
+        <item>Maa Movies --- 897 -- TELUGU</item>
+        <item>Zee Cinemalu --- 900 -- TELUGU</item>
+        <item>Etv Andhra Pradesh --- 904 -- TELUGU</item>
+        <item>Tv9 Telugu --- 905 -- TELUGU</item>
+        <item>Ntv --- 906 -- TELUGU</item>
+        <item>Sakshi Tv --- 907 -- TELUGU</item>
+        <item>Abn Andhra Jyoti --- 909 -- TELUGU</item>
+        <item>Tv5 Telugu --- 910 -- TELUGU</item>
+        <item>V6 News --- 912 -- TELUGU</item>
+        <item>T News --- 914 -- TELUGU</item>
+        <item>Etv Telangana --- 916 -- TELUGU</item>
+        <item>10Tv Telugu News --- 918 -- TELUGU</item>
+        <item>Gemini News --- 919 -- TELUGU</item>
+        <item>Raj News Telugu --- 920 -- TELUGU</item>
+        <item>Studio N News --- 921 -- TELUGU</item>
+        <item>Cvr News --- 922 -- TELUGU</item>
+        <item>Cvr English --- 923 -- TELUGU</item>
+        <item>Kushi Tv --- 926 -- TELUGU</item>
+        <item>Gemini Music --- 930 -- TELUGU</item>
+        <item>Maa Music --- 932 -- TELUGU</item>
+        <item>Gemini Life --- 933 -- TELUGU</item>
+        <item>Raj Music Telugu --- 935 -- TELUGU</item>
+        <item>Etv Life --- 938 -- TELUGU</item>
+        <item>Etv Abhiruchi --- 939 -- TELUGU</item>
+        <item>Svbc --- 940 -- TELUGU</item>
+        <item>Subhavaartha --- 941 -- TELUGU</item>
+        <item>Bhakti Tv --- 942 -- TELUGU</item>
+        <item>Diviyavani Tv --- 943 -- TELUGU</item>
+        <item>Aradhana Tv --- 944 -- TELUGU</item>
+        <item>Dd Yadagiri --- 946 -- TELUGU</item>
+        <item>Dd Saptagiri --- 947 -- TELUGU</item>
+        <item>Cvr Om Spiritual --- 948 -- TELUGU</item>
+        <item>Shiv Shakti Sai --- 950 -- TELUGU</item>
+        <item>Udaya Tv --- 953 -- KANADA</item>
+        <item>Colors Kannada --- 955 -- KANADA</item>
+        <item>Colors Kannada (High Definition) --- 956 -- KANADA</item>
+        <item>Zee Kannada --- 957 -- KANADA</item>
+        <item>Star Suvarna --- 959 -- KANADA</item>
+        <item>Kasthuri Tv --- 961 -- KANADA</item>
+        <item>Chintu Tv --- 988 -- KANADA</item>
+        <item>Udaya Comedy --- 962 -- KANADA</item>
+        <item>Kalki Kannada --- 964 -- KANADA</item>
+        <item>Colors Super --- 965 -- KANADA</item>
+        <item>Naaptol Kannada --- 966 -- KANADA</item>
+        <item>Udaya Movies --- 970 -- KANADA</item>
+        <item>Suvarna Plus --- 972 -- KANADA</item>
+        <item>Tv 9 Kannada --- 976 -- KANADA</item>
+        <item>Udaya News --- 977 -- KANADA</item>
+        <item>Etv News Kannada --- 978 -- KANADA</item>
+        <item>Suvarna News 24X7 --- 979 -- KANADA</item>
+        <item>Btv News Kannada --- 980 -- KANADA</item>
+        <item>Public Tv --- 981 -- KANADA</item>
+        <item>Parjaa Tv Kannada --- 982 -- KANADA</item>
+        <item>Raj News Kannada --- 983 -- KANADA</item>
+        <item>Jansari News --- 984 -- KANADA</item>
+        <item>Udaya Music --- 990 -- KANADA</item>
+        <item>Raj Musix Kannada --- 991 -- KANADA</item>
+        <item>Dd Chandana --- 995 -- KANADA</item>
+        <item>Sri Sankara Kannada Feed --- 688 -- KANADA</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

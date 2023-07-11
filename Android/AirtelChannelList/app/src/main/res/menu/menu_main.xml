@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/airtelTV" android:title="Airtel TV">Airtel TV</item>
+    <item android:id="@+id/sunDirect" android:title="Sun Direct">Sun Direct</item>
+    <item
+        android:id="@+id/isBold"
+        android:title="Bold"
+        android:checkable="true"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/rate_me" android:title="Rate Me" android:icon="@drawable/ic_rate_review_black_24dp" app:showAsAction="always">Rate Me</item>
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_cancel_black_24dp"
+        android:title="Exit">Exit
+    </item>
+</menu>

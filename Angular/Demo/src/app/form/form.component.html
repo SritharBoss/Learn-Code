@@ -1,0 +1,32 @@
+<div class="bg"></div>
+
+<form class="container col-sm-4 alignCenter" ngForm #f="ngForm">
+    <div class="row form-group">
+        <label for="firstName">First Name : </label>
+        <input required minlength="5" ngModel #fn="ngModel" (click)="log(fn)" name="firstName" id="firstName" type="text"
+            class="form-control">
+    </div>
+
+    <div style="margin-top: 5px;" (click)="log(fn)" class="alert alert-danger row" *ngIf="fn.touched && fn.invalid">
+        <div *ngIf="fn.value==''">Please Enter First Name</div>
+        <div *ngIf="fn?.errors?.['minlength']">Should be 5 Character length</div>
+    </div>
+    <div class="row form-group">
+        <label for="lastName">Last Name : </label>
+        <input required id="lastName" type="text" class="form-control">
+    </div>
+
+    <div class="row form-group">
+        <label for="email">Email : </label>
+        <input required id="email" type="email" class="form-control">
+    </div>
+
+    <div class="row form-group">
+        <label for="dob">Date of Birth : </label>
+        <input required value="" id="dob" type="date" class="form-control">
+    </div>
+
+
+    <button [disabled]="!f.valid" style="margin-top:5px;width:33%; margin-left:33%; margin-right:34%;"
+        class="row btn btn-primary" type="submit">Submit</button>
+</form>

@@ -1,0 +1,26 @@
+<p><span><b>UpperCase Pipe:&nbsp;</b></span> {{list.firstName | uppercase}} </p>
+<p><span><b>LowerCase Pipe:&nbsp;</b></span> {{list.lastname | lowercase}} </p>
+<p><span><b>Number Pipe:&nbsp;</b></span> {{list.rating | number:'1.1-1' }} </p>
+<p><span><b>Money Pipe:&nbsp;</b></span> {{list.money | currency:'INR'}} </p>
+<p><span><b>Date Pipe:&nbsp;</b></span> {{list.createdDate | date:'dd/MM/YYYY' }} </p>
+
+<p><span><b>Json Pipe:&nbsp;</b></span> {{list | json }} </p>
+
+<input class="form-control" [(ngModel)]="inputValue" type="text" placeholder="Enter Something">
+<div style="margin-top: 10px;"></div>
+<p><span><b>Custom Title Case Pipe:&nbsp;</b></span> {{inputValue | titlecase }} </p>
+
+
+<hr>
+
+
+<div *ngFor="let a of arr">
+    <label style="margin: 10px 10px;" for="id_{{a.id}}"> Label : {{a.id}}</label>
+    <input (focus)="onClick($event,'id_'+a.id)" style="margin: 10px 10px;" type="text" id="id_{{a.id}}">
+</div>
+
+<div class="Block">
+    <label id="lbl">Code </label>
+    <input id = "idof" type='file' (change)="fileChanged($event)">
+  
+  </div>

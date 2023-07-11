@@ -1,0 +1,2 @@
+rootProject.name='Restarting'
+include ':app'

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.DialogFragment">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="13dp"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_simple"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/red_primary"
+                android:text="Simple Dialog" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_simple1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/pink_primary"
+                android:text="Simple Dialog With Options" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_singleChoice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/purple_primary"
+                android:text="Single Choice Dialog" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_multiChoice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/indigo_primary"
+                android:text="Multi Choice Dialog" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_progress_dismiss"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/blue_primary"
+                android:text="Dismissible Progress Dialog" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_progress_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/cyan_primary"
+                android:text="Horizontal Progress bar" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_date_picker"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/teal_primary"
+                android:text="Date Picker" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_time_picker"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/green_primary"
+                android:text="Time Picker" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_bottom_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/light_green_primary"
+                android:text="Bottom Sheet" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

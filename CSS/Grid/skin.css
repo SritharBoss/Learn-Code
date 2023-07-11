@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 1fr 100px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container div{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.header:hover,.divcontent:hover{
+    background-color: grey;
+    transition: background-color 500ms,size 1s;
+    font-size: 1.1em;
+    cursor: pointer;
+    animation: ff 0.3s;
+}
+
+@keyframes ff {
+    25% { transform: translateX(4px)}
+    50% { transform: translateX(-4px)}
+    75% { transform: translateX(4px)}
+}
