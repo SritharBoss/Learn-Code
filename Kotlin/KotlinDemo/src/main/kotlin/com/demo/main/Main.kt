@@ -1,11 +1,50 @@
+package com.demo.main
+
 import java.lang.reflect.Field
-import java.time.Duration
 import java.util.*
 import kotlin.time.Duration.Companion.hours
-import kotlin.time.Duration.Companion.seconds
 
+fun main() {
+//    Main().printLocalVariables()
+//    Main().demoMethod()
+
+    val a=101
+    val b=1
+    val c=a or b
+
+    println("$a\t--> "+"%32s".format(Integer.toBinaryString(a)).replace(" ","0").every(8))
+    println("$b\t--> "+"%32s".format(Integer.toBinaryString(b)).replace(" ","0").every(8))
+
+    println("$c\t--> "+"%32s".format(Integer.toBinaryString(c)).replace(" ","0").every(8))
+
+
+
+
+}
+
+
+fun String.every(digit:Int):String{
+    val sb=StringBuilder()
+    var a=this.length-1;
+    while(a>=0){
+        sb.append(this[a])
+        if(a%digit==0 && a!=0){
+            sb.append("_")
+        }
+        a--
+    }
+
+    return sb.toString().reversed()
+}
 
 class Main {
+
+    companion object{
+        fun add(a:Int,b:Int):Int{
+            return a+b
+        }
+    }
+
     class Nested {
         public var nestedVar = "I'm Nested Variable, Can you access me?"
     }
@@ -55,18 +94,4 @@ class Main {
             }
         }
     }
-}
-
-fun main() {
-//    Main().printLocalVariables()
-    Main().demoMethod()
-
-}
-
-open class Animal @JvmOverloads constructor(val name: String = "Default", val type: AnimalTypes = AnimalTypes.DEFAULT) {
-    var leg: Int = 0;
-}
-
-enum class AnimalTypes {
-    DOG, CAT, DEFAULT
 }

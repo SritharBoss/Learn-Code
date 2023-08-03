@@ -7,74 +7,159 @@
     tools:context=".MainActivity">
 
     <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:animateLayoutChanges="true"
-            android:padding="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:id="@+id/ll"
+            android:padding="10dp">
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
                 app:cardCornerRadius="8dp">
 
-               <androidx.constraintlayout.widget.ConstraintLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent"
-                   android:padding="5dp"
-                   >
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
 
-                   <TextView
-                       android:id="@+id/tv1"
-                       style="@style/MaterialAlertDialog.Material3.Body.Text"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Internet IP Address"
-                       android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                       app:layout_constraintLeft_toLeftOf="parent"
-                       app:layout_constraintTop_toTopOf="parent" />
+                    <TextView
+                        android:id="@+id/tv1"
+                        style="@style/MaterialAlertDialog.Material3.Body.Text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet IP Address"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
-                   <TextView
-                       android:id="@+id/tv_ip"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Click the button"
-                       android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                       app:layout_constraintBottom_toBottomOf="parent"
-                       app:layout_constraintLeft_toLeftOf="parent"
-                       app:layout_constraintTop_toBottomOf="@id/tv1" />
+                    <TextView
+                        android:id="@+id/tv_ip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Click the button"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv1" />
 
-                   <com.google.android.material.button.MaterialButton
-                       android:id="@+id/ip_refresh"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Fetch IP"
-                       style="@style/Widget.Material3.Button.OutlinedButton"
-                       app:layout_constraintRight_toRightOf="parent"
-                       app:layout_constraintTop_toTopOf="parent"
-                       />
-               </androidx.constraintlayout.widget.ConstraintLayout>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/ip_refresh"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fetch IP"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ipv4"/>
+
+                    <TextView
+                        android:id="@+id/tv_ipv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textEnd"
+                        android:text="N/A"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ipv6"/>
+
+                    <TextView
+                        android:id="@+id/tv_ipv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textEnd"
+                        android:text="N/A"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Wifi Distance"/>
+
+                    <TextView
+                        android:id="@+id/tv_wifi_dist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textEnd"
+                        android:text="N/A"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
 
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/regular_fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:src="@drawable/settings_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
