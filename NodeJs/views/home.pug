@@ -1,0 +1,25 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Products
+    link(rel='stylesheet',href='/css/main1.css')
+    link(rel='stylesheet',href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css')
+    // Font Awesome
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css',rel='stylesheet')
+    // Google Fonts
+    
+    // MDB
+    //link(href='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css' rel='stylesheet')
+body
+    header
+        nav
+            ul
+                li
+                    a.active(href='/') Home
+                li
+                    a(href='/add-product') Add Product
+    main
+        ol.collection
+            each p in prods
+                li.collection-item #{p}

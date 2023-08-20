@@ -1,9 +1,9 @@
-package com.demo.main;
+package com.main.problems;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Demo {
+public class NoOfSteps {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

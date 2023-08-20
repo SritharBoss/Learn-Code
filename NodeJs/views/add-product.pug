@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Add Product 
+        link(rel='stylesheet' href='/css/main1.css')
+        link(rel='stylesheet',href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css')
+    body
+        header
+            nav
+                ul
+                    li
+                        a(href='/') Home
+                    li
+                        a.active(href='/add-product') Add Product
+        main
+            h5 Add Product
+                form(action='/add-product',method='POST')
+                    input(type='text',name='product')
+                    button.btn.btn-primary(type='submit') Submit
