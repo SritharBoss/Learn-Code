@@ -1,18 +1,12 @@
 package com.example.wifinetwork;
 
 import android.annotation.SuppressLint;
-import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.Network;
-import android.net.NetworkCapabilities;
-import android.net.NetworkInfo;
-import android.net.NetworkRequest;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.Html;
@@ -39,12 +33,10 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    private WifiManager wifiManager;
     private MaterialButton ipRefresh;
     private TextView publicIp,ipv4,ipv6,wifi_dist;
     private String dist;
     private Handler handler;
-    private Runnable runnable;
 
 
     @Override
@@ -79,11 +71,11 @@ public class MainActivity extends AppCompatActivity {
 
         connectivityManager.registerDefaultNetworkCallback(networkCallback);
 
-        runnable = new Runnable() {
+        Runnable runnable = new Runnable() {
             @Override
             public void run() {
                 refreshData();
-                handler.postDelayed(this,2000);
+                handler.postDelayed(this, 2000);
             }
         };
 
@@ -125,8 +117,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getNetworkInfo(){
-        wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-        WifiInfo wifiInfo=wifiManager.getConnectionInfo();
+        WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+        WifiInfo wifiInfo= wifiManager.getConnectionInfo();
         int freq = wifiInfo.getFrequency();
         int rssi = wifiInfo.getRssi();
         dist =String.format("~%.1fm", freqRssiToDistance(freq, rssi));

@@ -2,10 +2,10 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "My First Node Js App",
-  "main": "firstNodeJs.js",
+  "main": "express-demo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon express-demo.js"
+    "start": "nodemon index.js"
   },
   "author": "Srithar",
   "license": "ISC",

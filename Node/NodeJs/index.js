@@ -6,6 +6,7 @@ const express = require("express");
 const adminRoute = require("./Routes/shop");
 
 const app = express();
+console.log(path.join(__dirname,'public'))
 app.use(express.static(path.join(__dirname,'public')))
 app.use(adminRoute.route);
 app.set('view engine','pug')
