@@ -6,6 +6,10 @@ import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author Srithar
+ * @link <a href="https://www.hackerearth.com">Hackerearch Solution</a>
+ **/
 public class AliAndTruck {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

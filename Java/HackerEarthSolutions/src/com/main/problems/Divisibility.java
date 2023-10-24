@@ -5,11 +5,9 @@ import java.util.Scanner;
 
 /**
  * @author SritharBoss
- * @see
- * https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/divisible-or-not-81b86ad7/
- * 
- * **/
-public class Divisiblity {
+ * @link <a href="https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/divisible-or-not-81b86ad7/">Hackerearch Solution</a>
+**/
+public class Divisibility {
 	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

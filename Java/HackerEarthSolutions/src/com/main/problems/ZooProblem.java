@@ -3,8 +3,12 @@ package com.main.problems;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * @author Srithar
+ * @link <a href="https://www.hackerearth.com">Hackerearch Solution</a>
+ **/
 public class ZooProblem {
-	public static void main(String args[] ) throws Exception {
+	public static void main(String[] args) throws Exception {
 		
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String name = br.readLine();

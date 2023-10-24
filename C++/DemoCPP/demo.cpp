@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+#include <fstream>
 using namespace std;
 int main(){
     int num=5;
@@ -7,9 +7,16 @@ int main(){
     double dou=3.14;
     char letter='A';
     bool boolean=true;
-    std::string s="Hello World";
-    std::string s1=", Greetings";
+    string s="Hello World";
+    string s1=", Greetings";
+
+    string line;
+    ifstream input;
+    input.open("/mnt/Data/gitpath",ios_base::in);
+
+    while(getline(input,line)){
+        cout<<line<<endl;
+    }
 
 
-	std::cout<< sqrt(64) <<std::endl;
 }

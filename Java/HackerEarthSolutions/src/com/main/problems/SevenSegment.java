@@ -5,6 +5,10 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Srithar
+ * @link <a href="https://www.hackerearth.com">Hackerearch Solution</a>
+ **/
 public class SevenSegment {
 
     private static final Map<Integer,Integer> map=new HashMap<>();

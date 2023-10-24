@@ -5,6 +5,10 @@ import com.main.util.Util;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * @author Srithar
+ * @link <a href="https://www.hackerearth.com">Hackerearch Solution</a>
+**/
 public class BestIndex {
 
     public static void main(String[] args) throws Exception {

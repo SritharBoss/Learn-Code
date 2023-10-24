@@ -3,7 +3,11 @@ package com.main.problems;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Baloons {
+/**
+ * @author Srithar
+ * @link <a href="https://www.hackerearth.com">Hackerearch Solution</a>
+ **/
+public class Balloons {
 
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

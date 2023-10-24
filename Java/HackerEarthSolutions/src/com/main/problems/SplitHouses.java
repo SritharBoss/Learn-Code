@@ -3,6 +3,10 @@ package com.main.problems;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * @author Srithar
+ * @link <a href="https://www.hackerearth.com">Hackerearch Solution</a>
+ **/
 public class SplitHouses {
 	static String result = "";
 
