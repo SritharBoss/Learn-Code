@@ -12,4 +12,8 @@ app.use(adminRoute.route);
 app.set('view engine','pug')
 app.set('views','views')
 
-app.listen(3000);
+var PORT=process.env.PORT || 3000
+
+app.listen(PORT,()=>{
+    console.log(`App Listening on ${PORT}`)
+});
