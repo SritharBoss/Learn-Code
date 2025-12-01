@@ -10,10 +10,16 @@ Javascript/From Github/
 Node/CscAccountServer/
 Java/JioEpgDownloader/
 Java/Chitta Downloader/
+Bash/BSFMOU/
+Python/ChittaDownload/
+Unreal/
 
 .gradle/
 .idea/
+.vscode/
 .settings/
+__pycache__/
+
 
 build/
 target/

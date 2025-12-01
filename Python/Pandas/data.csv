@@ -1,0 +1,9 @@
+Date,Product,Category,Units_Sold,Price
+2025-01-01,Phone,Electronics,10,699
+2025-01-01,Laptop,Electronics,5,1200
+2025-01-01,Shirt,Clothing,20,25
+2025-01-02,Phone,Electronics,7,699
+2025-01-02,Shirt,Clothing,10,25
+2025-01-02,Jeans,Clothing,8,40
+2025-01-03,Jeans,Clothing,8,40
+2025-01-04,Jeans,Clothing,100,60
