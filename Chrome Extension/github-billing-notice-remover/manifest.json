@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Billing Error Remover",
+  "version": "1.0",
+  "description": "Removes GitHub billing error notification banner.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
